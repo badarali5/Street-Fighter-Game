@@ -37,16 +37,6 @@ The game is a simple two-player fighter simulation where each player controls a 
 
 4. Follow the on-screen instructions to choose your fighter and start the battle.
 
-## Project Structure
-StreetFighter/
-│
-├── Fighter.java           # Base fighter class with common properties
-├── Character1.java        # Fighter 1 class, extending Fighter
-├── Character2.java        # Fighter 2 class, extending Fighter
-├── Game.java              # Main game loop and logic
-├── Attack.java            # Class to handle attacks and combos
-└── README.md              # This file
-
 
 ## Contributions
 
