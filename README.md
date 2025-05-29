@@ -19,18 +19,20 @@ The game is a simple two-player fighter simulation where each player controls a 
 ## Requirements
 
 - Java 8 or higher.
+- Maven 3+
 - Any IDE or terminal that can run Java code.
 
 ## How to Play
 
 1. Clone the repository to your local machine using:
    git clone 'https://github.com/your-username/streetfighter-java.git'
+   cd GameFiles
 
 2. Compile the Java files using your IDE or run the following command in your terminal:
-   javac '*.java'
+   mvn package
 
 3. Run the game using:
-   java 'Game'
+   java -jar target/sf-0.0.1-SNAPSHOT.jar
 
 4. Follow the on-screen instructions to choose your fighter and start the battle.
 
